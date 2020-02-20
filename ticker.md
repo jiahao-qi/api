@@ -23,7 +23,7 @@ curl -X GET https://open.loex.io/open/v1/ticker
 ### Request frequency：
 
 ```
-15 times/1s
+5 times/1s
 ```
 ### Response Sample
 ```
@@ -259,11 +259,8 @@ curl -X GET https://open.loex.io/open/v1/ticker
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| JSON Key | String | market（base_quote） |
-| base | string |  |
-| base_id | string | The quote pair Unified Cryptoasset ID. |
-| quote | string |  |
-| quote_id | string |  |
+| base_id | string | The base pair Unified Cryptoasset ID. |
+| quote_id | string | The quote pair Unified Cryptoasset ID. |
 | last_price | decimal | The price of the last executed order |
 | base_volume | decimal | 24 hour trading volume in base pair volume |
 | quote_volume | decimal | 24 hour trading volume in quote pair volume |
