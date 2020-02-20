@@ -23,25 +23,29 @@
 
 ```
 {
-	"BTC": {
-		"max_withdraw": "2.00000000",
-		"maker_fee": "0.00200000",
-		"name": "Bitcoin",
-		"taker_fee": "0.00200000",
-		"can_withdraw": "true",
-		"can_deposit": "true",
-		"unified_cryptoasset_id": "50",
-		"min_withdraw": "0.00100000"
-	},
-	"ETH": {
-		"max_withdraw": "60.00000000",
-		"maker_fee": "0.00200000",
-		"name": "Ethereum",
-		"taker_fee": "0.00200000",
-		"can_withdraw": "true",
-		"can_deposit": "true",
-		"unified_cryptoasset_id": "51",
-		"min_withdraw": "0.02000000"
+	"code": "0",
+	"message": null,
+	"data": {
+		"BTC": {
+			"max_withdraw": "2.00000000",
+			"maker_fee": "0.00200000",
+			"name": "Bitcoin",
+			"taker_fee": "0.00200000",
+			"can_withdraw": "true",
+			"can_deposit": "true",
+			"unified_cryptoasset_id": "50",
+			"min_withdraw": "0.00100000"
+		},
+		"ETH": {
+			"max_withdraw": "60.00000000",
+			"maker_fee": "0.00200000",
+			"name": "Ethereum",
+			"taker_fee": "0.00200000",
+			"can_withdraw": "true",
+			"can_deposit": "true",
+			"unified_cryptoasset_id": "51",
+			"min_withdraw": "0.02000000"
+		}
 	}
 }
 ```
