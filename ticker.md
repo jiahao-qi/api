@@ -23,7 +23,7 @@ curl -X GET https://open.loex.io/open/v1/ticker
 ### Request frequency：
 
 ```
-5 times/1s
+15 times/1s
 ```
 ### Response Sample
 ```
