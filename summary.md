@@ -974,3 +974,18 @@
 	}
 }
 ```
+
+### Response Parameter Description
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | Integer | N/A |
+| last | string | The last transaction price. |
+| lowestAsk | string | The lowest ask quotation. |
+| highestBid | string | The highest bid quodation. |
+| percentChange | string | Advance-Decline percent. |
+| baseVolume | string | The amount of transaction during 24 hours. |
+| quoteVolume | string | The accumulated transaction quotation during 24 hours . |
+| isFrozen | string | The availability of transaction. |
+| high24hr | string | The highest transaction price during 24 hours. |
+| low24hr | string | The lowest transaction price during 24 hours. |
