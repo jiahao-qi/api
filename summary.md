@@ -1,8 +1,5 @@
 ## summary
 
-### Summary：
-
-```The assets endpoint is to provide a detailed summary for each currency available on the exchange.```
 
 ### Request URL:
 
