@@ -974,11 +974,3 @@
 	}
 }
 ```
-### Response Parameter Description
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | string | Name of cryptocurrency. |
-| deposit | string | Unique ID of cryptocurrency assigned by Unified Cryptoasset ID. |
-| withdraw | String | Identifies whether withdraws are enabled or disabled. |
-
